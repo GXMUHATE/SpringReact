@@ -1,10 +1,18 @@
-import NotificationButton from "./components/NotificationButton"
+import SalesCard from "./components/SalesCard"
+import Header from "./components/Header"
 
 function App() {
   return (
     <>
-    <h1>Hi World!</h1>
-    <NotificationButton/>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="tsutsu-container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
+
     </>
   )
 }
