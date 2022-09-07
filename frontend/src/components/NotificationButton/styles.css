@@ -1,0 +1,15 @@
+.brown-btn{
+    height: 45px;
+    width: 45px;
+    background: rgba(177, 43, 38, 0.1);
+    border: 1px solid #b12b26;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.brown-btn img {
+    width: 19px;
+}
